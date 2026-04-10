@@ -1,0 +1,13 @@
+[package]
+name = "openclaw_power_furnace"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pixel-widgets = "0.9.1"
+
+winit = "0.28.3" # 視窗管理
+
+tokio = { version = "1.38.1", features = ["full"] }
+auto-skill = { path = "src/open_source_plugins/auto-skill" }
+# 刪除 Star-Office-UI，因為它是 Python 專案！
