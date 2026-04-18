@@ -125,15 +125,24 @@ sre/
 |
 target/
 
-```
 
-```
 ---
 ---
 
 安裝Rust
+ 主要是為了使用 Rust 語言開發動力爐的核心邏輯和功能。Rust 提供了高性能和安全性，非常適合用於開發複雜的遊戲和應用程序。
+
 ---
 
+安裝 Godot 與 gdext-0.5.0
+
+放置在專案路徑\src\open_source_plugins\
+                                ├──    gdext-0.5.0
+
+                                └──   Godot 
+
+
+---
 CMD
 CD  專案路徑
 
