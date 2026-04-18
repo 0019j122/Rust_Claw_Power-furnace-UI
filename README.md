@@ -77,45 +77,59 @@
         院長 :  Rust_姊 開發者、管理員、最高權限
         女教授 :  陰戶 操奈子 開發者、 寫作家、教學、管理員、次高權限
         學生/學徒 :  學習者、創作者、使用者、最低權限
+        
+---
+
+---       
+
+        層級,功能名稱,UI 組件建議,角色權限 
+P_1,山口路引導,登入/啟動畫面,訪客
+B_6,圖書館 (提煉),文風合成、文本上傳區,學生
+B_7,院長辦公室,管理員設定、API Key 配置,Rust-姊 (最高權限)
+B_17,岩漿層火爐
+        
+```
+
+```
+權限階級:
+        院長 :  Rust_姊 開發者、管理員、最高權限
+        女教授 :  陰戶 操奈子 開發者、 寫作家、教學、管理員、次高權限
+        學生/學徒 :  學習者、創作者、使用者、最低權限
 ```
 
 ```
 
-OpenClaw_Power Furnace-rust UI/
+Rust_Claw_Power furnace - UI/
 sre/
 ├── Cargo.toml (主)
 
-├── open_source_plugins/ # 開源插件
-
-│   ├── auto-skill/ # 自動技能系統
-
-│   ├── Star-Office-UI/ # 用戶界面設計
-
-│   └── mempalace/  <-- 把記憶庫移到這裡，別塞在 src 裡
 
 └── src\
-     └── main.rs (你的核心邏輯)
-    
+    └── lib.rs (你的核心邏輯)
+    ├── open_source_plugins/ # 開源插件
+│   ├── auto-skill/ # 自動技能系統
+│   ├── Godot\
+              GDExtension 是 Godot Engine 4.0 引入的一種新的插件系統，允許開發者使用 Rust 等語言來擴│   展   Godot 的功能。這個插件提供了與 Godot 引擎的集成，使得開發者可以在 Rust 中編寫遊戲邏輯、創建自   定義節點、處理事件等，從而利用 Rust 的性能和安
+              全性來開發高效的遊戲。
+              bin \     #像素材料庫放在這裡,提供給技能系統使用
+│   ├──  
+│   │    
+    ├── knights-to-see-you-main/ # 另一個遊戲開發框架插件，提供與 Knights to See You 引擎的集成，允許在 Rust 中開發遊戲邏輯和功能。
+│   └── gdext-0.5.0/  # 遊戲開發框架插件，提供與 Godot Engine 的集成，允許在 Rust 中開發遊戲邏輯和功能。
 ├── role play/ # 角色扮演
-
 ├── skill/  
-
 │       ├── SKILL.md # 必要的
-
 │       ├── assets/ # 靜態資源（範本、圖片、資料檔）
-
 │       ├── Exemplary style / # 生成過的作品風格範例
-
 │       ├── references/ # 額外的參考文件  
-
 │       └── scripts/ # 可執行的程式碼（Python、Bash、JavaScript）
-
+|
 target/
 
+```
 
-
-
-
+```
+---
 ---
 
 安裝Rust
@@ -127,9 +141,13 @@ CD  專案路徑
 ---
 cargo rnu
 
+cargo   build
+
 ```
 
 有問題請問 : AI
+
+---
 
 ## 功能特性
 
@@ -145,18 +163,12 @@ cargo rnu
 - 反思 : 好玩、好笑、有趣、足夠色情{肉麻、變態、偷窺、粗暴、強奸}、好無聊?不好看?不知道演什麼?
 - 迭代 : 更新
 
-- 
-
 ## 借用開源專案
 - [Rust](https://www.rust-lang.org/) : 作為主要開發語言，提供高性能和安全性
 - [Auto-Skill](https://github.com/auto-skill/auto-skill) : 用於自動技能系統
+- civitai: 下載繪畫模型,生成圖片 (https://civitai.red/models)
+- craftpix.net:  免費像素材料 ( https://craftpix.net/  )    
+-
+-
 - 
-- 
-- 
-- 
-- 
-- 
-
-## UI 背景設計
-
 
