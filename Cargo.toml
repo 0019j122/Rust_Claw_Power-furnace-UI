@@ -1,13 +1,14 @@
 [package]
 name = "openclaw_power_furnace"
-version = "0.1.0"
+version = "0.1.2"
 edition = "2021"
 
+[lib]
+crate-type = ["cdylib"]
+
 [dependencies]
-pixel-widgets = "0.9.1"
+godot = { git = "https://github.com/godot-rust/gdext", branch = "master" }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4.20-rc.1" }
 
-winit = "0.28.3" # 視窗管理
-
-tokio = { version = "1.38.1", features = ["full"] }
-auto-skill = { path = "src/open_source_plugins/auto-skill" }
-# 刪除 Star-Office-UI，因為它是 Python 專案！
