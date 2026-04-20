@@ -99,31 +99,38 @@ B_17,岩漿層火爐
 ```
 
 Rust_Claw_Power furnace - UI/
-sre/
+
+├──bin \  像素材料放置區
+├──動力爐_樓層目錄  \ 場景
 ├── Cargo.toml (主)
-
-
-└── src\
-    └── lib.rs (你的核心邏輯)
-    ├── open_source_plugins/ # 開源插件
-│   ├── auto-skill/ # 自動技能系統
-│   ├── Godot\
-              GDExtension 是 Godot Engine 4.0 引入的一種新的插件系統，允許開發者使用 Rust 等語言來擴│   展   Godot 的功能。這個插件提供了與 Godot 引擎的集成，使得開發者可以在 Rust 中編寫遊戲邏輯、創建自   定義節點、處理事件等，從而利用 Rust 的性能和安
-              全性來開發高效的遊戲。
-              bin \     #像素材料庫放在這裡,提供給技能系統使用
-│   ├──  
-│   │    
-    ├── knights-to-see-you-main/ # 另一個遊戲開發框架插件，提供與 Knights to See You 引擎的集成，允許在 Rust 中開發遊戲邏輯和功能。
-│   └── gdext-0.5.0/  # 遊戲開發框架插件，提供與 Godot Engine 的集成，允許在 Rust 中開發遊戲邏輯和功能。
-├── role play/ # 角色扮演
-├── skill/  
-│       ├── SKILL.md # 必要的
-│       ├── assets/ # 靜態資源（範本、圖片、資料檔）
-│       ├── Exemplary style / # 生成過的作品風格範例
-│       ├── references/ # 額外的參考文件  
-│       └── scripts/ # 可執行的程式碼（Python、Bash、JavaScript）
-|
+├── src\
+│   ├──  lib.rs (你的核心邏輯)
+│   ├── open_source_plugins/ # 開源插件
+│                          auto-skill/ # 自動技能系統
+│                         ├── Godot\
+                                    Godot_v4.6.2-stable_win64.exe # Godot Engine 的安裝文件，提供遊戲開發環境。
+                                    Godot_v4.6.2-stable_win64_console.exe # Godot Engine 的控制台版本，適合在命令行界面使用。  // 資料夾裡放EXE檔沒有其他內容，這裡只是為了說明放置位置和用途。
+│
+│                         │
+                          ├── knights-to-see-you-main/ # 另一個遊戲開發框架插件，提供與 Knights to See You 引擎的集成，允許在 Rust 中開發遊戲邏輯和功能。
+│                         └── gdext-0.5.0/  # Godot Engine 的擴展插件，提供額外的功能和工具，幫助開發者更高效地使用 Godot Engine 進行遊戲開發。
+        ├── role play/ # 角色扮演
+        ├── skill/  
+│       │
+│       │          ├── SKILL.md # 必要的
+│       │          ├── assets/ # 靜態資源（範本、圖片、資料檔）
+│       │          ├── Exemplary style / # 生成過的作品風格範例
+│       │          ├── references/ # 額外的參考文件  
+│       │          ├── scripts/ # 可執行的程式碼（Python、Bash、JavaScript）
+        │          ├── Skill System  # 技能系統，包含技能定義、技能效果、技能升級等功能
+│       │          ├── SOUL.md # 角色靈魂檔案，包含角色背景、性格、動機等信息
+│       │          ├── Power Furnace Tentacle Core_SKILL.md
+│       │          ├── Pixel_SKILL.md
+│       └──lib.rs
+├──  project.godot   # 專案的 Godot Engine 配置文件，包含項目的設置和資源管理信息。 不然會有雙重的問題，因為 Godot Engine 會在專案根目錄下自動生成一個 project.godot 文件，如果你已經有一個 project.godot 文件，Godot Engine 可能會產生衝突，導致專案無法正常運行。 這裡的 project.godot 文件是為了說明專案結構和配置文件的位置，實際使用中需要確保只有一個 project.godot 文件存在於專案根目錄下。
+│
 target/
+
 
 
 ---
