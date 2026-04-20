@@ -1,0 +1,397 @@
+[gd_scene format=3 uid="uid://8sqjepbijk2b"]
+
+[ext_resource type="Texture2D" uid="uid://4qlrskyvebb0" path="res://bin/background/B_17/B_17 .png" id="1_vcy4e"]
+[ext_resource type="Texture2D" uid="uid://cev6tkehvyfi0" path="res://bin/Power furnace/Power furnace_1.png" id="3_dwqda"]
+[ext_resource type="Texture2D" uid="uid://c83emn6i7ng4y" path="res://bin/background/傳送陣/傳送陣1.png" id="6_ibuj7"]
+[ext_resource type="Texture2D" uid="uid://xg1b5dnlvoxy" path="res://bin/background/B_7/辦公室.png" id="7_i85yb"]
+[ext_resource type="Texture2D" uid="uid://b2ij5wljght7l" path="res://bin/background/P_1/P_.png" id="8_qnrnf"]
+[ext_resource type="Texture2D" uid="uid://cwgfms1770ywj" path="res://bin/background/裝飾品/椅子_1.png" id="8_ynymx"]
+[ext_resource type="Texture2D" uid="uid://hdrx54i8qyit" path="res://bin/background/B_6/圖書室_2.png" id="9_gupfj"]
+[ext_resource type="Texture2D" uid="uid://drcl2egmri8qp" path="res://bin/Power furnace/Power furnace_2.png" id="10_2qax5"]
+[ext_resource type="Texture2D" uid="uid://y6naatpatoms" path="res://bin/Power furnace/Power furnace_3.png" id="11_y7f2w"]
+[ext_resource type="Texture2D" uid="uid://bmbe6x5w8ldos" path="res://bin/Power furnace/Power furnace_4.png" id="12_r3h6x"]
+[ext_resource type="Texture2D" uid="uid://bfugrsp5wadvk" path="res://bin/Power furnace/Power furnace_5.png" id="13_kly5r"]
+[ext_resource type="Texture2D" uid="uid://blf0m82wmq7v4" path="res://bin/Power furnace/Power furnace_6.png" id="14_745us"]
+[ext_resource type="Texture2D" uid="uid://bafjjnu31g27d" path="res://bin/Power furnace/Power furnace_7.png" id="15_bvbor"]
+[ext_resource type="Texture2D" uid="uid://bubxgwnim36f3" path="res://bin/background/傳送陣/傳送陣6.png" id="15_tj8gl"]
+[ext_resource type="Texture2D" uid="uid://cdraslftote2s" path="res://bin/Power furnace/Power furnace_8.png" id="16_edec2"]
+[ext_resource type="Texture2D" uid="uid://13kvba6ouge5" path="res://bin/background/傳送陣/傳送陣7.png" id="16_h3q84"]
+[ext_resource type="Texture2D" uid="uid://cff2ykcuiy2yy" path="res://bin/background/傳送陣/傳送陣2.png" id="17_745us"]
+[ext_resource type="Texture2D" uid="uid://cmokcp0qelr6f" path="res://bin/background/傳送陣/傳送陣8.png" id="17_ski6y"]
+[ext_resource type="Texture2D" uid="uid://cbf3wufxqr68f" path="res://bin/background/傳送陣/傳送陣3.png" id="18_bvbor"]
+[ext_resource type="Texture2D" uid="uid://dpobloiec71lb" path="res://bin/background/傳送陣/傳送陣9.png" id="18_j72bl"]
+[ext_resource type="Texture2D" uid="uid://xtr0vpp5vga6" path="res://bin/background/傳送陣/傳送陣10.png" id="19_4hj2j"]
+[ext_resource type="Texture2D" uid="uid://dxlvt6cew5km1" path="res://bin/background/傳送陣/傳送陣4.png" id="19_edec2"]
+[ext_resource type="Texture2D" uid="uid://cdudk5tn275a6" path="res://bin/background/傳送陣/傳送陣5.png" id="20_s3eg7"]
+[ext_resource type="Texture2D" uid="uid://cdoqasmpm6ygi" path="res://bin/role play/Rust_Big Sister/右行走/00.png" id="21_udb46"]
+[ext_resource type="Texture2D" uid="uid://hfu5rxpnl7w4" path="res://bin/role play/Rust_Big Sister/Standing/01.png" id="22_ng4xm"]
+[ext_resource type="Texture2D" uid="uid://bftipsbmyitur" path="res://bin/role play/Rust_Big Sister/右行走/01.png" id="22_rkp62"]
+[ext_resource type="Texture2D" uid="uid://tyuyu4dah6lu" path="res://bin/role play/Rust_Big Sister/Standing/02.png" id="23_2nkhs"]
+[ext_resource type="Texture2D" uid="uid://dwf4acg4nkdvt" path="res://bin/role play/Rust_Big Sister/右行走/02.png" id="23_20cj7"]
+[ext_resource type="Texture2D" uid="uid://3lew724nee4" path="res://bin/role play/Rust_Big Sister/Standing/03.png" id="24_nxnnl"]
+[ext_resource type="Texture2D" uid="uid://cijp5apyt7f6x" path="res://bin/role play/Rust_Big Sister/右行走/03.png" id="24_tj8gl"]
+[ext_resource type="Texture2D" uid="uid://brejp300fk7cq" path="res://bin/role play/Rust_Big Sister/右行走/04.png" id="25_h3q84"]
+[ext_resource type="Texture2D" uid="uid://dfj22w0l7sf0o" path="res://bin/role play/Rust_Big Sister/Standing/04.png" id="25_xlspf"]
+[ext_resource type="Texture2D" uid="uid://djcn4sn5l7r6s" path="res://bin/role play/Rust_Big Sister/右行走/05.png" id="26_ski6y"]
+[ext_resource type="Texture2D" uid="uid://i5e1ovlo8tsy" path="res://bin/role play/Rust_Big Sister/Standing/05.png" id="26_v82n7"]
+[ext_resource type="Texture2D" uid="uid://bij1r2gtjby3e" path="res://bin/role play/Rust_Big Sister/左行走/00.png" id="27_j72bl"]
+[ext_resource type="Texture2D" uid="uid://bwrd5ilplh73u" path="res://bin/role play/Rust_Big Sister/Standing/06.png" id="27_qkwgq"]
+[ext_resource type="Texture2D" uid="uid://d11pxjsuh27qe" path="res://bin/role play/Rust_Big Sister/左行走/01.png" id="28_4hj2j"]
+[ext_resource type="Texture2D" uid="uid://bsbsmampcxti3" path="res://bin/role play/Rust_Big Sister/Standing/07.png" id="28_o38cb"]
+[ext_resource type="Texture2D" uid="uid://b3e5usm4g0nag" path="res://bin/role play/Rust_Big Sister/左行走/02.png" id="29_axn5n"]
+[ext_resource type="Texture2D" uid="uid://cgq3uhcfidpor" path="res://bin/role play/Rust_Big Sister/Standing/08.png" id="29_fpgs6"]
+[ext_resource type="Texture2D" uid="uid://dct2unuej14ru" path="res://bin/role play/Rust_Big Sister/左行走/03.png" id="30_o2t4l"]
+[ext_resource type="Texture2D" uid="uid://chmmm85v4lyf5" path="res://bin/role play/Rust_Big Sister/左行走/04.png" id="31_ndskc"]
+[ext_resource type="Texture2D" uid="uid://cuufpgd8dq3sq" path="res://bin/role play/Rust_Big Sister/左行走/05.png" id="32_3pcqk"]
+[ext_resource type="Script" uid="uid://dlq7rkrl656n5" path="res://B_/rust_院長.gd" id="41_w4ko5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s3eg7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_dwqda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_2qax5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_y7f2w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_r3h6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_kly5r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_745us")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_bvbor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_edec2")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_axn5n"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_ibuj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_745us")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bvbor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_edec2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_s3eg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_tj8gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_h3q84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ski6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_j72bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4hj2j")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2sr1b"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_udb46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_rkp62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_20cj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_tj8gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_h3q84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ski6y")
+}],
+"loop": true,
+"name": &"右行走",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_j72bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_4hj2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_axn5n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_o2t4l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ndskc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_3pcqk")
+}],
+"loop": true,
+"name": &"左行走",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_ng4xm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2nkhs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_nxnnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_xlspf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_v82n7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_qkwgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_o38cb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_fpgs6")
+}],
+"loop": true,
+"name": &"站姿",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o2t4l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_ibuj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_745us")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bvbor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_edec2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_s3eg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_tj8gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_h3q84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ski6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_j72bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4hj2j")
+}],
+"loop": true,
+"name": &"傳送陣",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ndskc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_ibuj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_745us")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bvbor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_edec2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_s3eg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_tj8gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_h3q84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ski6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_j72bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4hj2j")
+}],
+"loop": true,
+"name": &"傳送陣",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3pcqk"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_ibuj7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_745us")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bvbor")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_edec2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_s3eg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_tj8gl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_h3q84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ski6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_j72bl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4hj2j")
+}],
+"loop": true,
+"name": &"傳送陣",
+"speed": 5.0
+}]
+
+[node name="B_17" type="Node2D" unique_id=947791857]
+
+[node name="B_17" type="Node2D" parent="." unique_id=1774630800]
+position = Vector2(581, 244)
+scale = Vector2(0.9391555, 0.921875)
+
+[node name="B17" type="Sprite2D" parent="B_17" unique_id=929569158]
+scale = Vector2(0.99999994, 1)
+texture = ExtResource("1_vcy4e")
+metadata/_edit_group_ = true
+
+[node name="動力爐" type="AnimatedSprite2D" parent="B_17/B17" unique_id=934980431]
+position = Vector2(30.346436, 58.91208)
+scale = Vector2(2.745153, 2.7901552)
+sprite_frames = SubResource("SpriteFrames_s3eg7")
+autoplay = "default"
+frame = 3
+frame_progress = 0.7475465
+
+[node name="傳送陣" type="AnimatedSprite2D" parent="B_17/B17" unique_id=1834535367]
+position = Vector2(444.21375, 121.745766)
+scale = Vector2(1.8571918, 3.8045557)
+sprite_frames = SubResource("SpriteFrames_axn5n")
+autoplay = "default"
+frame = 4
+frame_progress = 0.23398641
+
+[node name="Rust_院長" type="AnimatedSprite2D" parent="B_17" unique_id=1626166787]
+position = Vector2(208.69812, 97.627106)
+scale = Vector2(1.5347896, 1.7711864)
+sprite_frames = SubResource("SpriteFrames_2sr1b")
+animation = &"站姿"
+autoplay = "站姿"
+frame = 4
+frame_progress = 0.8020906
+script = ExtResource("41_w4ko5")
+speed = null
+
+[node name="B_7" type="Node2D" parent="." unique_id=161952195]
+
+[node name="辦公室" type="Sprite2D" parent="B_7" unique_id=1130388188]
+position = Vector2(813, -248.99998)
+scale = Vector2(1.967672, 1.6835939)
+texture = ExtResource("7_i85yb")
+
+[node name="椅子1" type="Sprite2D" parent="B_7/辦公室" unique_id=760659799]
+position = Vector2(-46.923706, 28.800003)
+scale = Vector2(1.1298225, 0.9771737)
+texture = ExtResource("8_ynymx")
+
+[node name="傳送陣" type="AnimatedSprite2D" parent="B_7/辦公室" unique_id=844837869]
+position = Vector2(76.74042, 92.34337)
+scale = Vector2(0.69058037, 1.0295823)
+sprite_frames = SubResource("SpriteFrames_o2t4l")
+animation = &"傳送陣"
+autoplay = "傳送陣"
+
+[node name="B_6" type="Node2D" parent="." unique_id=506271542]
+position = Vector2(423, -214.99998)
+scale = Vector2(1.6635743, 1.5742188)
+
+[node name="B_6" type="Sprite2D" parent="B_6" unique_id=54623787]
+position = Vector2(9.617846, -313.80646)
+scale = Vector2(0.99999994, 1)
+texture = ExtResource("9_gupfj")
+
+[node name="傳送陣" type="AnimatedSprite2D" parent="B_6" unique_id=248543564]
+position = Vector2(-209.18811, -238.34245)
+scale = Vector2(0.9320516, 1.6634614)
+sprite_frames = SubResource("SpriteFrames_ndskc")
+animation = &"傳送陣"
+autoplay = "傳送陣"
+
+[node name="P_1" type="Node2D" parent="." unique_id=548332173]
+position = Vector2(510.75, -651.125)
+scale = Vector2(2.0166018, 1.8615196)
+
+[node name="P_1" type="Sprite2D" parent="P_1" unique_id=1923016173]
+position = Vector2(4.586924, -254.56352)
+scale = Vector2(0.9999998, 0.99999994)
+texture = ExtResource("8_qnrnf")
+
+[node name="傳送陣" type="AnimatedSprite2D" parent="P_1" unique_id=796600103]
+position = Vector2(-211.6184, -206.75313)
+scale = Vector2(1, 1.5995722)
+sprite_frames = SubResource("SpriteFrames_3pcqk")
+animation = &"傳送陣"
+autoplay = "傳送陣"
